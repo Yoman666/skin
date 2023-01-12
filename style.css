@@ -124,6 +124,9 @@ a:hover{
 .fontsizeMiddle{
     font-size: 3rem;
 }
+.fontsizeMs{
+    font-size: 2.4rem;
+}
 .fontsizeSmall{
     font-size: 2rem;
 }

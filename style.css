@@ -30,8 +30,8 @@ a:hover{
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding-right:1rem;
-    padding-left:1rem;
+    padding-right:1.5rem;
+    padding-left:1.5rem;
 
 }
 
@@ -60,6 +60,9 @@ a:hover{
 }
 .tlc{
     text-align: center;
+}
+.z-1{
+    z-index: 1;
 }
 
 /* 字型 */
@@ -165,7 +168,7 @@ a:hover{
 .strokeBrown::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1.5rem #50331c;
+    -webkit-text-stroke: 1rem #50331c;
 }
 
 .strokeWhite::before{
@@ -174,7 +177,7 @@ a:hover{
 .strokeWhite::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1.5rem #fff;
+    -webkit-text-stroke: 1rem #fff;
 }
 
 .strokeGreen::before{
@@ -183,7 +186,7 @@ a:hover{
 .strokeGreen::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1.5rem #3d4a24;
+    -webkit-text-stroke: 1rem #3d4a24;
 }
 
 .strokeBlack::before{
@@ -192,8 +195,9 @@ a:hover{
 .strokeBlack::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1.5rem #000;
+    -webkit-text-stroke: 1rem #000;
 }
+
 
 
 
@@ -215,7 +219,7 @@ a:hover{
 
 /* 字陰影 */
 .fontshadow{
-    text-shadow:3px 5px 10px #444444;
+    text-shadow:4px 5px 3px #33333350;
 }
 
 /* 圖片rwd */
@@ -246,10 +250,11 @@ background-position: top center;
 background-repeat: no-repeat;
 }
 .bc03{
-background-image: url(./pic/sec03/sec03_bgi.png);
+background-image: url(./pic/sec03/sec03_bgi2.png);
 background-size: cover;
 background-position: top center;
 background-repeat: no-repeat;
+
 }
 .bc04{
 background-image: url(./pic/sec04/SVG/sec04_bgi.svg);
@@ -329,11 +334,11 @@ white-space: nowrap;
     margin-right: -35%;
 }
 .movetop3{
-    margin-bottom: -50px;
+    margin-bottom: -3rem;
 }
 .movetop4{
-    margin-bottom: -100px;
-    margin-right: -250px;
+    margin-bottom: -4rem;
+    margin-right: -15rem;
 }
 .movetop5{
     margin-top: -100px;
@@ -386,8 +391,22 @@ background-color: #fff;
 }
 .sec02_icon{
     background-color: #fff; border-radius: 100%;
-    width: 180px;
+    width: 14rem;
 }
+.sec04_text{
+    width: 80%;
+}
+.sec04_icon{
+    width: 5rem;
+}
+.star{
+    width: 4rem;
+}
+.sec06_icon{
+    width: 15rem;
+    margin: 0 3rem;
+}
+
 
 /* sec3 */
 .list{
@@ -441,6 +460,11 @@ background-color: #fff;
     background-color: #ce2523;
 
 }
+.boxStyle8{
+    box-shadow: 2px 3px 5px #33333350;
+
+}
+
 
 /* 暫時隱藏 */
 /* .sec1, .sec2, .sec3, .sec4, .sec4-2, .sec5-1, .sec5-2, .sec6, .sec7, .sec8, .sec9{
@@ -450,7 +474,7 @@ background-color: #fff;
 
 @media(max-width:992px){
     *{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 

@@ -134,7 +134,7 @@ a:hover{
     font-size: 1rem;
 }
 .fontsizePro{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 .fontsizePro1{
     font-size: 1.5rem;
@@ -502,12 +502,22 @@ background-color: #fff;
     box-shadow: 2px 3px 5px #33333350;
 
 }
+.sec11 a:hover{
+    color: #ce2523 ;
+}
 
+/* 動畫 */
+#btnByt{
+    background: #095a87;
+    animation: mymove 1s infinite;
 
-/* 暫時隱藏 */
-/* .sec1, .sec2, .sec3, .sec4, .sec4-2, .sec5-1, .sec5-2, .sec6, .sec7, .sec8, .sec9{
-    display: none !important;
-} */
+}
+@keyframes mymove{
+    from{ background-color:#095a87;}
+    to{background-color:#f5b319;}
+    to{background-color:#ce2523;}
+    
+}
 
 
 @media(max-width:992px){

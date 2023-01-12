@@ -15,10 +15,19 @@ font-family: 'Patrick Hand', cursive; */
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+}
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    padding-right:1rem;
+    padding-left:1rem;
+
 }
 
 .mt-10{
@@ -34,10 +43,16 @@ ul{
     padding-bottom: 5rem;
 }
 
-/* 字間距 */
+/* 常用 */
 .ls{
     letter-spacing:0.3rem;
 }
+.tlc{
+    text-align: center;
+}
+
+
+
 
 /* 背景顏色 */
 .bcr{
@@ -99,6 +114,9 @@ ul{
 .fontcolorBlacklight{
     color: #08232f;
 }
+.fontcolorGray{
+    color: #424142;
+}
 .fontcolorBlue{
     color: #2162af;
 }
@@ -112,6 +130,20 @@ ul{
 .fontcolorYellow{
     color: #f5ac20;
 }
+.fontcolorRed{
+    color: #8d2222;
+}
+.fontcolorRedlight{
+    color: #c4191f;
+}
+.fontcolorRedlight{
+    color: #c4191f;
+}
+.fontcolorOrangebark{
+    color: #e75635;
+}
+
+
 
 
 
@@ -204,6 +236,14 @@ background-size: cover;
 background-position: top center;
 background-repeat: no-repeat;
 }
+.bc10-2{
+background-image: url(./pic/sec10/sec10_bgi2.png);
+background-size: contain;
+background-position: top center;
+background-repeat: no-repeat;
+transform: scale(1.1);
+}
+
 
 
 /* 字在圖中 */
@@ -277,7 +317,7 @@ border-radius:20px;
 background-color: #fff;
 }
 
-/* image */
+/* image 樣式調整*/
 .sec01_img{
     width: 1000px;
     border-radius: 20px;
@@ -326,12 +366,27 @@ background-color: #fff;
 }
 .boxStyle5{
     box-shadow: 3px 5px 10px #444444;
+}
+.boxStyle6{
+    padding:2rem;
+    background-color: #f5b319;
+    border: 1rem solid #fff;
+    border-radius: 20px;
+
+}
+.boxStyle7{
+    padding:1rem;
+    background-color: #095a87;
+    border: 1rem solid #f5b319;
+    border-radius: 100px;
+}
+.boxStyle7:hover{
+    background-color: #ce2523;
 
 }
 
-
 /* 暫時隱藏 */
-/* .sec1, .sec2, .sec3, .sec4, .sec5-1, .sec5-2{
+/* .sec1, .sec2, .sec3, .sec4, .sec4-2, .sec5-1, .sec5-2, .sec6, .sec7, .sec8, .sec9{
     display: none !important;
 } */
 

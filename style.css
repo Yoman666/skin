@@ -261,11 +261,17 @@ background-color: #fff;
     box-shadow: 3px 5px 10px #444444;
     border-radius: 20px;
 }
+.boxStyle3{
+    width: 90%;
+    background-color:#eee;
+    box-shadow: 3px 5px 10px #444444;
+    border-radius: 20px;
+}
 
 /* 暫時隱藏 */
-/* .sec1, .sec2, .sec3, .sec4{
+.sec1, .sec2, .sec3, .sec4, .sec5-1, .sec5-2{
     display: none !important;
-} */
+}
 
 
 @media(max-width:768px){

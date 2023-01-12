@@ -114,6 +114,9 @@ a:hover{
 .fontsizePro{
     font-size: 0.8rem;
 }
+.fontsizePro1{
+    font-size: 1.5rem;
+}
 
 /* 字顏色 */
 .fontcolorBrown{
@@ -181,6 +184,7 @@ a:hover{
     position: absolute;
     z-index: -1;
     -webkit-text-stroke: 1rem #fff;
+    white-space: nowrap;
 }
 
 .strokeGreen::before{
@@ -421,6 +425,11 @@ background-color: #fff;
 /* sec5-1 */
 .boxStyle{
     background-color:#f5b319;
+    box-shadow: 3px 5px 10px #444444;
+    border-radius: 0px 0px 40px 0px;
+}
+.boxStyle0{
+    background-color:#0b5087;
     box-shadow: 3px 5px 10px #444444;
     border-radius: 0px 0px 40px 0px;
 }

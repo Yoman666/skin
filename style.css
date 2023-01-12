@@ -30,6 +30,7 @@ a:hover{
 
 }
 
+/* margin padding */
 .mt-10{
     margin-top: 5rem;
 }
@@ -42,6 +43,11 @@ a:hover{
 .pb-10{
     padding-bottom: 5rem;
 }
+
+.mt-n4{
+    margin-top: -4rem;
+}
+
 
 /* 常用 */
 .ls{
@@ -270,11 +276,11 @@ white-space: nowrap;
 
 /* 定位 */
 .movetop{
-    margin-top: -170px;
+    margin-top: -10rem;
     z-index: 1;
 }
 .movetop2{
-    margin-top: -120px;
+    margin-top: -9rem;
     margin-right: -35%;
 }
 .movetop3{
@@ -317,15 +323,21 @@ border-radius:20px;
 background-color: #fff;
 }
 
-/* image 樣式調整*/
+/* image 樣式rwd調整*/
+.sec01_logo{
+    width: 45%;
+}
+.sec01_cir{
+    width: 65%;
+}
+.sec01_bg2{
+    width: 30%;
+}
 .sec01_img{
     width: 1000px;
     border-radius: 20px;
     box-shadow: 3px 5px 10px #444444;
     text-align: center;
-}
-.sec01_logo{
-    width: 45%;
 }
 .sec02_icon{
     background-color: #fff; border-radius: 100%;

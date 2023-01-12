@@ -196,7 +196,7 @@ a:hover{
 .strokeBrown::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1rem #50331c;
+    -webkit-text-stroke: 0.7rem #50331c;
     white-space: nowrap;
 }
 
@@ -206,7 +206,7 @@ a:hover{
 .strokeWhite::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1rem #fff;
+    -webkit-text-stroke: 0.7rem #fff;
     white-space: nowrap;
 }
 
@@ -216,7 +216,7 @@ a:hover{
 .strokeGreen::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1rem #3d4a24;
+    -webkit-text-stroke: 0.7rem #3d4a24;
     white-space: nowrap;
 }
 
@@ -226,7 +226,7 @@ a:hover{
 .strokeBlack::before {
     position: absolute;
     z-index: -1;
-    -webkit-text-stroke: 1rem #000;
+    -webkit-text-stroke: 0.7rem #000;
     white-space: nowrap;
 }
 

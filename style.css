@@ -34,11 +34,24 @@ ul{
     padding-bottom: 5rem;
 }
 
+/* 字間距 */
+.ls{
+    letter-spacing:0.3rem;
+}
+
+/* 背景顏色 */
+.bcr{
+    background-color: #e75635;
+}
+.bco{
+    background-color: #ef7c25;
+}
 
 /* 字型 */
 .fontstyleTitle{
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: bold;
+    font-weight: 800;
 
 }
 
@@ -83,6 +96,9 @@ ul{
 .fontcolorBlack{
     color: #000;
 }
+.fontcolorBlacklight{
+    color: #08232f;
+}
 .fontcolorBlue{
     color: #2162af;
 }
@@ -96,7 +112,6 @@ ul{
 .fontcolorYellow{
     color: #f5ac20;
 }
-
 
 
 
@@ -179,6 +194,12 @@ background-repeat: no-repeat;
 }
 .bc09{
 background-image: url(./pic/sec09/sec09_bgi.png);
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+}
+.bc10{
+background-image: url(./pic/sec10/sec10_bgi-20.jpg);
 background-size: cover;
 background-position: top center;
 background-repeat: no-repeat;
@@ -303,11 +324,16 @@ background-color: #fff;
     border-radius: 20px;
     margin:0rem 2rem;
 }
+.boxStyle5{
+    box-shadow: 3px 5px 10px #444444;
+
+}
+
 
 /* 暫時隱藏 */
-.sec1, .sec2, .sec3, .sec4, .sec5-1, .sec5-2{
+/* .sec1, .sec2, .sec3, .sec4, .sec5-1, .sec5-2{
     display: none !important;
-}
+} */
 
 
 @media(max-width:768px){

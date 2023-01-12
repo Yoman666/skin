@@ -81,13 +81,16 @@ a:hover{
 
 }
 .fontstyle2{
-    /* font-family: 'Noto Sans TC', sans-serif; */
+    
     font-family:'Noto Sans HK', sans-serif;
-    font-weight: bold;
     font-weight: 800;
     
-
 }
+.fontstyle3{
+    font-family: 'Noto Sans HK';
+}
+
+
 
 
 
@@ -476,10 +479,10 @@ background-color: #fff;
     box-shadow: 3px 5px 10px #444444;
 }
 .boxStyle6{
-    padding:2rem;
+    padding:1rem;
     background-color: #f5b319;
     border: 1rem solid #fff;
-    border-radius: 20px;
+    border-radius: 1.5rem;
 
 }
 .boxStyle7{

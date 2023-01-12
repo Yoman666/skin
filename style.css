@@ -2,7 +2,12 @@
 font-family: 'Cookie', cursive;
 font-family: 'Fredoka One', cursive;
 font-family: 'Noto Sans TC', sans-serif;
-font-family: 'Patrick Hand', cursive; */
+font-family: 'Patrick Hand', cursive;
+font-family: 'Noto Sans HK', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Noto Serif TC', serif;
+*/
+
 
 *{
     /* border:1px black solid; */
@@ -57,7 +62,14 @@ a:hover{
     text-align: center;
 }
 
+/* 字型 */
+.fontstyleTitle{
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    font-weight: 800;
 
+}
 
 
 /* 背景顏色 */
@@ -68,13 +80,7 @@ a:hover{
     background-color: #ef7c25;
 }
 
-/* 字型 */
-.fontstyleTitle{
-    font-family: 'Noto Sans TC', sans-serif;
-    font-weight: bold;
-    font-weight: 800;
 
-}
 
 /* 字體大小 */
 .fontsizeBig{
@@ -149,6 +155,45 @@ a:hover{
     color: #e75635;
 }
 
+
+
+
+/* 字體邊框改良 */
+.strokeBrown::before{
+    content: attr(data-storke);
+}
+.strokeBrown::before {
+    position: absolute;
+    z-index: -1;
+    -webkit-text-stroke: 1.5rem #50331c;
+}
+
+.strokeWhite::before{
+    content: attr(data-storke);
+}
+.strokeWhite::before {
+    position: absolute;
+    z-index: -1;
+    -webkit-text-stroke: 1.5rem #fff;
+}
+
+.strokeGreen::before{
+    content: attr(data-storke);
+}
+.strokeGreen::before {
+    position: absolute;
+    z-index: -1;
+    -webkit-text-stroke: 1.5rem #3d4a24;
+}
+
+.strokeBlack::before{
+    content: attr(data-storke);
+}
+.strokeBlack::before {
+    position: absolute;
+    z-index: -1;
+    -webkit-text-stroke: 1.5rem #000;
+}
 
 
 
@@ -280,7 +325,7 @@ white-space: nowrap;
     z-index: 1;
 }
 .movetop2{
-    margin-top: -9rem;
+    margin-top: -8rem;
     margin-right: -35%;
 }
 .movetop3{
@@ -331,7 +376,7 @@ background-color: #fff;
     width: 65%;
 }
 .sec01_bg2{
-    width: 30%;
+    width: 26%;
 }
 .sec01_img{
     width: 1000px;
@@ -402,6 +447,12 @@ background-color: #fff;
     display: none !important;
 } */
 
+
+@media(max-width:992px){
+    *{
+        font-size: 12px;
+    }
+}
 
 @media(max-width:768px){
     *{

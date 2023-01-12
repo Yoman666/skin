@@ -32,6 +32,10 @@ a:hover{
     margin: 0 auto;
     padding-right:1.5rem;
     padding-left:1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+
 
 }
 
@@ -58,6 +62,9 @@ a:hover{
 .ls{
     letter-spacing:0.3rem;
 }
+.ls-2{
+    letter-spacing:0.5rem;
+}
 .tlc{
     text-align: center;
 }
@@ -73,6 +80,15 @@ a:hover{
     font-weight: 800;
 
 }
+.fontstyle2{
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    font-family:'Noto Sans HK', sans-serif;
+    font-weight: bold;
+    font-weight: 800;
+    
+
+}
+
 
 
 /* 背景顏色 */
@@ -438,13 +454,13 @@ background-color: #fff;
 }
 .boxStyle2{
     width: 90%;
-    background-color:#eee;
+    background-color:#cecdd5;
     box-shadow: 3px 5px 10px #444444;
     border-radius: 20px;
 }
 .boxStyle3{
     width: 90%;
-    background-color:#eee;
+    background-color:#cecdd5;
     box-shadow: 3px 5px 10px #444444;
     border-radius: 20px;
 }

@@ -139,6 +139,10 @@ a:hover{
 .fontsizePro1{
     font-size: 1.5rem;
 }
+.fontsizePro2{
+    font-size: 2rem;
+}
+
 
 /* 字顏色 */
 .fontcolorBrown{
@@ -559,6 +563,9 @@ background-color: #fff;
     }
     .dis2{
         display: block;
+    }
+    .fontsizePro{
+        font-size: 2rem;
     }
     
 

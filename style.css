@@ -539,6 +539,9 @@ background-color: #fff;
     *{
         font-size: 9px;
     }
+    .fontsizePro1{
+        font-size: 3rem;
+    }
 }
 
 @media(max-width:680px){
@@ -557,6 +560,7 @@ background-color: #fff;
     .dis2{
         display: block;
     }
+    
 
 }
 

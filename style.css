@@ -140,7 +140,8 @@ a:hover{
     font-size: 0.8rem;
 }
 .fontsizePro1{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding: 5px;
 }
 .fontsizePro2{
     font-size: 2rem;
@@ -556,7 +557,7 @@ background-color: #fff;
         font-size: 9px;
     }
     .fontsizePro1{
-        font-size: 3rem;
+        font-size: 1rem;
     }
 }
 
@@ -587,6 +588,11 @@ background-color: #fff;
     *{
         font-size: 8px;
     }
+    .fontsizePro1{
+       min-height: 50px; 
+    }
+    
+
    
 }
 
@@ -594,6 +600,7 @@ background-color: #fff;
     *{
         font-size: 6px;
     }
+
 }
 @media(max-width:414px){
     *{

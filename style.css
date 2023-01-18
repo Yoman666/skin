@@ -196,7 +196,7 @@ a:hover{
 
 
 
-
+/* 。 */
 /* 字體邊框改良 */
 .strokeBrown::before{
     content: attr(data-storke);

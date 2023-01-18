@@ -348,6 +348,7 @@ background-position: top center;
 background-repeat: no-repeat;
 transform: scale(1.1);
 }
+
 .add{
 background-image: url(./pic/add/add_bgi-20.jpg);
 background-size: cover;
@@ -355,10 +356,10 @@ background-position: top center;
 background-repeat: no-repeat;
 }
     
+ 
 
 
-
-/* 字在圖中 */
+/* 字在圖中 1*/
 .position-relative {
 position: relative;
 }

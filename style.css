@@ -588,9 +588,7 @@ background-color: #fff;
     *{
         font-size: 8px;
     }
-    .fontsizePro1{
-       min-height: 50px; 
-    }
+    
     
 
    
@@ -606,6 +604,9 @@ background-color: #fff;
     *{
         font-size: 5px;
     }
+    /* .fontsizePro1{
+        min-height: 50px; 
+     } */
 
 }
 @media(max-width:360px){

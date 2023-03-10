@@ -306,7 +306,7 @@ background-repeat: no-repeat;
 
 }
 .bc04{
-background-image: url(./pic/sec04/SVG/sec04_bgi.svg);
+background-image: url(./pic/sec04/sec04_bgi-8.png);
 background-size: cover;
 background-position: top center;
 background-repeat: no-repeat;
@@ -626,3 +626,55 @@ background-color: #fff;
     }
 
 }
+
+
+
+.sec1, .sec2, .sec3, .sec4, .sec5-1,.sec5-2, .sec6,.sec4-2{
+    display: none !important;
+}
+
+
+/* newstyle */
+.fontcolorBlue2{
+    color: #3785C0;
+}
+.fontcolorBrown2{
+    color: #BE6A1B;
+}
+
+.cycout{
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cycin{
+    border: #3785C0 10px solid;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100px;
+}
+
+.fontsizeSmall2{
+    font-size: 1.5rem;
+}
+
+.pstyle{
+    margin-bottom: 0;
+}
+
+.newstrokeWhite::before{
+    content: attr(data-storke);
+}
+.newstrokeWhite::before {
+    position: absolute;
+    z-index: -1;
+    -webkit-text-stroke: 0.7rem #fff;
+    white-space: nowrap;
+    text-shadow:10px 5px 10px #33333350;
+}
+
